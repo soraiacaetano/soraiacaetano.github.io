@@ -36,30 +36,29 @@ head h1 {
 main {
     max-width: 900px;
     margin: 2rem auto;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 10px;
 
 }
 
 section {
     margin-bottom: 2rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 4px 5px 4px 5px rgba(21, 27, 35, 0.2);
 
 }
 
-section * {
+/* section * {
     margin: 0.3rem;
-}
+} */
 
 section .topico {
-    margin:3rem 0rem;
+    margin: 0.3rem 0rem;
 }
 
 footer {
     text-align: center;
-    padding:1rem 1rem;
     font-size: 0.9rem;
     background-color: var(--cor-primaria);
 }
