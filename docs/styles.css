@@ -1,13 +1,13 @@
 :root{
     --cor-primaria:rgba(21, 27, 35, 0.2);
-    --cor-secundaria:#5c5cbd;
-    --cor-clara:#b4eff6;
-    ---cor-destaque:#50cd95;
+    --cor-secundaria:#3c3cb9;
+    --cor-clara:#48b06d;
+    ---cor-destaque:#57c1c1;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 1px;
+    padding: 1px;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
