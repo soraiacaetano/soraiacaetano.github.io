@@ -1,0 +1,92 @@
+:root{
+    --cor-primaria:rgba(21, 27, 35, 0.2);
+    --cor-secundaria:#5c5cbd;
+    --cor-clara:#b4eff6;
+    ---cor-destaque:#50cd95;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color:white;
+    padding: 1rem;
+    box-shadow:var(--cor-primaria);
+    background: linear-gradient(135deg,var(--cor-secundaria),var(--cor-clara));
+    line-height:2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: var(--cor-primaria);
+box-shadow:4px 5px 4px 5px var(--cor-primaria);
+}
+
+head h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px 5px rgba(21, 27, 35, 0.2);
+
+}
+
+section * {
+    margin: 0.3rem;
+}
+
+section .topico {
+    margin:3rem 0rem;
+}
+
+footer {
+    text-align: center;
+    padding:1rem 1rem;
+    font-size: 0.9rem;
+    background-color: var(--cor-primaria);
+}
+
+@keyframes fadeInDown {
+from {
+    opacity: 0;
+    transform: translateY(-30px);}
+to {
+    opacity: 1;
+transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+    transform: translateY(0);}
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;}
+        to {
+            opacity: 1;}
+        }
+    
